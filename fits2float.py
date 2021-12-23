@@ -36,7 +36,7 @@ instruct.grid(columnspan=3, column=0, row=0)
 def openfiles():
     # print('works')
     # global files
-    files = askopenfilenames(initialdir='/home/asergeyev/code/python/gls_search/images/des_known/DES0049-1749/DESJ005027.7920-174009.4800/', 
+    files = askopenfilenames(initialdir='.',
             title='Select fits files',
             filetypes=[('Fits files', ('.fit', '.fits')),
                 ('all files', '.*'),
